@@ -166,31 +166,3 @@ sumElements($firstArr);
 var_dump($sum);
 
 echo(PHP_EOL);
-
-
-
-
-
-
-
-
-
-
-
-// $firstArrKeys = array_keys($firstArr);
-// $seconArrKeys = array_keys($secondArr);
-
-// Розбиваю на два масиви з ключами з масивів firstArr та seconArrKeys. І порівнюю їх два рази так як на вихіоді поверитаються тільки елементи якіх немає в порівнюваному масиві.
-// Записую відповіді у новий масив
-// $diffArr[] = array_diff($firstArrKeys, $seconArrKeys);
-// $diffArr[] = array_diff($seconArrKeys, $firstArrKeys);
-
-// Так як у нас виходить багатомірний масив створюю ще один масив і проходжусь циклом додаючи в нього відповіді з diffArr
-// $diffElements = [];
-// for ($i = 0; $i < count($diffArr); $i++) {
-//     $diffElements = array_merge($diffElements, $diffArr[$i]);
-// }
-// var_dump($diffElements);
-
-
-// найти все элементы которые присутствую в первом и отсутствуют во втором
