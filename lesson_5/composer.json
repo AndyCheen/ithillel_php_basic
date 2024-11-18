@@ -1,0 +1,22 @@
+{
+    "name": "andriitkachenko/lesson_5",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrii Tkachenko",
+            "email": "atkachenko1228@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
